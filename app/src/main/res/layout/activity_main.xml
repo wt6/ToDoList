@@ -13,14 +13,14 @@
             android:layout_width="25dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="New Task"/>
+            android:text="@string/add_tasks"/>
 
         <Button
-            android:id="@+id/deleteAllTasksButton"
+            android:id="@+id/deleteTasksButton"
             android:layout_width="10dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Delete All Tasks"/>
+            android:text="@string/remove_tasks"/>
     </LinearLayout>
 
     <ListView
